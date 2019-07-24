@@ -11,7 +11,7 @@ public class EDDTarea1 {
     
     public static void main(String[] args) {
         menu();
-        
+        System.out.println("");
     }
     
     public static void menu(){
