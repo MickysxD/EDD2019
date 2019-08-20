@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1566317064 source:c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\actividades.cpp
+	"Actividades.h"
+	<string>
+
+1566313405 c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\actividades.h
+	<iostream>
+	<string>
+
+1566320453 source:c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\listaactividades.cpp
+	"ListaActividades.h"
+
+1566315190 c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\listaactividades.h
+	<iostream>
+	"Actividades.h"
+
+1566320512 source:c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\dia.cpp
+	"Dia.h"
+	<string>
+	"ListaActividades.h"
+	<iostream>
+
+1566313418 c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\dia.h
+	"ListaActividades.h"
+	<string>
+
+1566320453 source:c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\main.cpp
+	<iostream>
+	"ListaDIas.h"
+	"conio.h"
+	"string.h"
+	<string>
+	<algorithm>
+
+1566313434 c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\listadias.h
+	"Dia.h"
+
+1566320400 source:c:\users\micky\documents\codeblocks\tarea3c\tarea3compi1\listadias.cpp
+	"ListaDIas.h"
+	"Dia.h"
+	"string.h"
+
