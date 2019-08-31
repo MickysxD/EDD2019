@@ -40,3 +40,28 @@
 	"Dia.h"
 	"string.h"
 
+1567211593 source:c:\users\micky\documents\codeblocks.git\edd2019\tarea3c\tarea3compi1\main.cpp
+	<iostream>
+	"MatrizActividades.h"
+	"conio.h"
+	"string.h"
+	<string>
+	<algorithm>
+
+1567211593 c:\users\micky\documents\codeblocks.git\edd2019\tarea3c\tarea3compi1\matrizactividades.h
+	"Nodo.h"
+	<string>
+
+1567208225 c:\users\micky\documents\codeblocks.git\edd2019\tarea3c\tarea3compi1\nodo.h
+	<string>
+
+1567208225 source:c:\users\micky\documents\codeblocks.git\edd2019\tarea3c\tarea3compi1\nodo.cpp
+	"Nodo.h"
+	<string>
+
+1567211593 source:c:\users\micky\documents\codeblocks.git\edd2019\tarea3c\tarea3compi1\matrizactividades.cpp
+	"MatrizActividades.h"
+	<string>
+	"Nodo.h"
+	<iostream>
+
