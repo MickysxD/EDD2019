@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
-    "\\bin\\Debug",
-    "\\include",
-    "\\obj",
-    "\\src"
+    "\\bin\\Debug"
   ],
   "SelectedNode": "\\main.cpp",
   "PreviewInSolutionExplorer": false

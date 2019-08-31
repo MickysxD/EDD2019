@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../Tarea3Compi1" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="../Tarea3Compi1" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,14 +34,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Actividades.cpp" />
-		<Unit filename="Actividades.h" />
-		<Unit filename="Dia.cpp" />
-		<Unit filename="Dia.h" />
-		<Unit filename="ListaActividades.cpp" />
-		<Unit filename="ListaActividades.h" />
-		<Unit filename="ListaDIas.cpp" />
-		<Unit filename="ListaDIas.h" />
+		<Unit filename="MatrizActividades.cpp" />
+		<Unit filename="MatrizActividades.h" />
+		<Unit filename="Nodo.cpp" />
+		<Unit filename="Nodo.h" />
 		<Unit filename="Tarea3Compi1.cbp" />
 		<Unit filename="Tarea3Compi1.depend" />
 		<Unit filename="Tarea3Compi1.layout" />
