@@ -22,6 +22,8 @@ public:
 	void agregarA(string dia, string hora, string actividad);
 	void imprimir();
 	void imprimird(string dia);
+	void csv(string dia);
+	void graficar();
 
 	~MatrizActividades();
 };

@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  tarea3compi1:
+    image: tarea3compi1
+    build: .
+    ports:
+      - 3000:3000

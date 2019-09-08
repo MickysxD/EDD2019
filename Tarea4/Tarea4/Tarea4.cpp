@@ -3,8 +3,8 @@
 
 #include "pch.h"
 #include <iostream>
-#include "conio.h"
 #include "MatrizActividades.h"
+#include <string>
 #include <algorithm>
 
 using namespace std;
@@ -17,11 +17,16 @@ bool si = true;
 
 int main()
 {
+	
+	nueva->csv("Libro1.csv");
+
 	while (si) {
 		cout << "1. Agregar actividad" << endl;
 		cout << "2. Ver actividades por dia" << endl;
 		cout << "3. Ver todas las actividades" << endl;
-		cout << "4. Salir" << endl  << endl;
+		cout << "4. Leer archivo .csv" << endl;
+		cout << "5. Graficar" << endl;
+		cout << "6. Salir" << endl  << endl;
 		cout << "	Ingrese el numero de la opcion a elegir: ";
 		cin >> numero;
 		cout << endl << endl;
@@ -40,12 +45,6 @@ int main()
 				nueva->agregarA(dia, hora, actividad);
 				cout << endl;
 				break;
-			
-			case 3:
-				nueva->imprimir();
-				cout << endl;
-				cout << endl;
-				break;
 				
 			case 2:
 				cout << "         Ingrese un dia: ";
@@ -56,8 +55,28 @@ int main()
 				cout << endl;
 				cout << endl;
 				break;
-				
+
+			case 3:
+				nueva->imprimir();
+				cout << endl;
+				cout << endl;
+				break;
+
 			case 4:
+				cout << "         Ingrese el nombre del .csv: ";
+				cin >> dia;
+
+				nueva->csv(dia);
+				cout << endl;
+				cout << endl;
+				cout << endl;
+				break;
+
+			case 5:
+				nueva->graficar();
+				break;
+
+			case 6:
 				si = false;
 				break;
 

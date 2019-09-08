@@ -1,6 +1,5 @@
 #include <iostream>
 #include "ListaDIas.h"
-#include "conio.h"
 #include "string.h"
 #include <string>
 #include <algorithm>
@@ -28,6 +27,5 @@ int main()
 
     //cin.getline();
 
-    getch();
     return 0;
 }
